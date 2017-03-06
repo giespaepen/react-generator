@@ -1,0 +1,16 @@
+exports[`test BusyComponent busy snapshot 1`] = `
+<div
+  className="busy">
+  <div
+    className="busy-wrapper">
+    <div
+      className="busy-loader">
+      <span>
+        Loading
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test BusyComponent idle snapshot 1`] = `<span />`;

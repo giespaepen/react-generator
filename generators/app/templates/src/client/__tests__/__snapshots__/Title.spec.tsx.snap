@@ -1,0 +1,53 @@
+exports[`test Title H1 rendered 1`] = `
+<h1
+  className={undefined}>
+  <span>
+    title
+  </span>
+</h1>
+`;
+
+exports[`test Title H1 rendered 2`] = `
+<h1
+  className={undefined}>
+  <span>
+    title
+  </span>
+</h1>
+`;
+
+exports[`test Title H2 as default rendered 1`] = `
+<h2
+  className={undefined}>
+  <span>
+    title
+  </span>
+</h2>
+`;
+
+exports[`test Title H2 rendered 1`] = `
+<h2
+  className={undefined}>
+  <span>
+    title
+  </span>
+</h2>
+`;
+
+exports[`test Title H3 rendered 1`] = `
+<h1
+  className={undefined}>
+  <span>
+    title
+  </span>
+</h1>
+`;
+
+exports[`test Title H4 rendered 1`] = `
+<h4
+  className={undefined}>
+  <span>
+    title
+  </span>
+</h4>
+`;
