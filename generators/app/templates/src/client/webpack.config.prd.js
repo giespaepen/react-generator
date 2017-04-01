@@ -1,4 +1,3 @@
-/* eslint-disable */
 var webpack = require("webpack");
 var path = require("path");
 var config = require("./webpack.config.js");
@@ -6,7 +5,7 @@ var config = require("./webpack.config.js");
 // Adapt the config for production purposes
 
 // Change the entry points
-config.entry = config.entry.filter(function (x) {
+config.entry.vendor = config.entry.vendor.filter(function (x) {
     return x.indexOf("webpack") == -1;
 });
 
@@ -14,7 +13,7 @@ config.entry = config.entry.filter(function (x) {
 config.plugins.push(
     new webpack.optimize.UglifyJsPlugin({
         compress: {
-            warnings: true
+            warnings: false
         }
     }));
 
@@ -29,7 +28,7 @@ config.plugins.push(
         }
     }));
 
-// Delete devtools and devserver
+// Delete devtools and devserver if any
 delete config.devtool;
 delete config.devServer;
 

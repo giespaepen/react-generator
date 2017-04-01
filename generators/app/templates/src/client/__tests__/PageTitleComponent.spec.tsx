@@ -14,7 +14,7 @@ let lastAction: Action;
 
 test("PageTitleComponent snapshot test", () => {
     // Arrange
-    const {reducer, store} = createTestStore({});
+    const { reducer, store } = createTestStore({});
     const initialCount: number = reducer.getCounter();
     const expectedAction: string = SET_PAGE_TITLE;
 
