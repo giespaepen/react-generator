@@ -81,11 +81,11 @@ module.exports = Generator.extend({
       yarn: true
     });
 
-    // Initialize the repository
-    this.spawnCommandSync('git', ['init']);
-
     // Install yarn
     this.spawnCommandSync('yarn', ['install']);
+
+    // Initialize the repository
+    this.spawnCommandSync('git', ['init']);
 
     // Compile the server
     this.spawnCommandSync('tsc', [], {cwd: 'src/server'});

@@ -1,4 +1,7 @@
 # generator-react-template 
+
+[![Build Status](https://travis-ci.org/giespaepen/react-generator.svg?branch=master)](https://travis-ci.org/giespaepen/react-generator)
+
 > Simple React template to set up your project at once. It includes an express server with an easy MVC pattern to build services.
 
 ## Installation
