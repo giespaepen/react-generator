@@ -1,6 +1,6 @@
 {
   "name": "generator-react-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Simple React template to set up your project at once. It includes an express server with an easy MVC pattern to build services.",
   "homepage": "https://github.com/giespaepen/react-generator",
   "author": {
