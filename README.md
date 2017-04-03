@@ -1,6 +1,7 @@
 # generator-react-template 
 
 [![Build Status](https://travis-ci.org/giespaepen/react-generator.svg?branch=master)](https://travis-ci.org/giespaepen/react-generator)
+[![npm version](https://badge.fury.io/js/generator-react-template.svg)](https://badge.fury.io/js/generator-react-template)
 
 > Simple React template to set up your project at once. It includes an express server with an easy MVC pattern to build services.
 
