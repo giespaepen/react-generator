@@ -42,7 +42,7 @@
       "mocha": true
     }
   },
-  "repository": "giespaepen/generator-react-template",
+  "repository": "https://github.com/giespaepen/react-generator",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
